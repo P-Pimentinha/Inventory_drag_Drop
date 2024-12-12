@@ -1,0 +1,51 @@
+[gd_scene load_steps=4 format=3 uid="uid://cyj6ubynis682"]
+
+[ext_resource type="PackedScene" uid="uid://cwqhk53wfv767" path="res://Slot.tscn" id="1_j2rom"]
+[ext_resource type="Resource" uid="uid://cx8jf4f5q08xc" path="res://Data/blue.tres" id="2_gvpqo"]
+[ext_resource type="Resource" uid="uid://c0c7345oiwktg" path="res://Data/green.tres" id="3_ffikm"]
+
+[node name="Inventory" type="PanelContainer"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 2
+columns = 6
+
+[node name="Slot" parent="GridContainer" instance=ExtResource("1_j2rom")]
+layout_mode = 2
+resource = ExtResource("2_gvpqo")
+
+[node name="Slot2" parent="GridContainer" instance=ExtResource("1_j2rom")]
+layout_mode = 2
+resource = ExtResource("3_ffikm")
+
+[node name="Slot3" parent="GridContainer" instance=ExtResource("1_j2rom")]
+layout_mode = 2
+
+[node name="Slot4" parent="GridContainer" instance=ExtResource("1_j2rom")]
+layout_mode = 2
+
+[node name="Slot5" parent="GridContainer" instance=ExtResource("1_j2rom")]
+layout_mode = 2
+
+[node name="Slot6" parent="GridContainer" instance=ExtResource("1_j2rom")]
+layout_mode = 2
+
+[node name="Slot7" parent="GridContainer" instance=ExtResource("1_j2rom")]
+layout_mode = 2
+
+[node name="Slot8" parent="GridContainer" instance=ExtResource("1_j2rom")]
+layout_mode = 2
+
+[node name="Slot9" parent="GridContainer" instance=ExtResource("1_j2rom")]
+layout_mode = 2
+
+[node name="Slot10" parent="GridContainer" instance=ExtResource("1_j2rom")]
+layout_mode = 2
+
+[node name="Slot11" parent="GridContainer" instance=ExtResource("1_j2rom")]
+layout_mode = 2
+
+[node name="Slot12" parent="GridContainer" instance=ExtResource("1_j2rom")]
+layout_mode = 2
