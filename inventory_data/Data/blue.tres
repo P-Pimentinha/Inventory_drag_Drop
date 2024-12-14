@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PickupInventoryResource" load_steps=3 format=3 uid="uid://cx8jf4f5q08xc"]
+
+[ext_resource type="Script" path="res://inventory_data/Data/pick_up_resources.gd" id="1_gj8ml"]
+[ext_resource type="Texture2D" uid="uid://fd88kbekdbn2" path="res://textures/blue_square.png" id="2_x3rls"]
+
+[resource]
+script = ExtResource("1_gj8ml")
+name = "Blue"
+description = "I am blue"
+stackable = true
+texture = ExtResource("2_x3rls")

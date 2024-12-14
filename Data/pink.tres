@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="Pickup_Inventory_Resource" load_steps=3 format=3 uid="uid://w7b15javknrm"]
-
-[ext_resource type="Script" path="res://Data/pick_up_resources.gd" id="1_legnh"]
-[ext_resource type="Texture2D" uid="uid://0yij3qoniema" path="res://textures/pink_square.png" id="2_k3r5o"]
-
-[resource]
-script = ExtResource("1_legnh")
-quantity = 10
-texture = ExtResource("2_k3r5o")
